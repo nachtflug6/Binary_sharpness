@@ -42,7 +42,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/workspace/segmentation",
+    "last_opened_file_path": "C:/workspace/Binary_sharpness",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
@@ -84,6 +84,7 @@
       <workItem from="1654710576740" duration="199000" />
       <workItem from="1654700238429" duration="4559000" />
       <workItem from="1654907464012" duration="29383000" />
+      <workItem from="1654938465305" duration="63000" />
     </task>
     <servers />
   </component>
