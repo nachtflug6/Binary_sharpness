@@ -31,8 +31,9 @@ class ImageSharpnessDS(Dataset):
             img = self.transform(img)
 
         label = self.img_labels.iloc[idx, 1]
+        name = self.img_labels.iloc[idx, 0]
         label = th.tensor(label, dtype=th.float32)
         label = th.unsqueeze(label, dim=0)
         if self.target_transform:
             label = self.target_transform(label)
-        return img, label
+        return img, label, name
